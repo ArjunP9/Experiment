@@ -51,7 +51,8 @@ function draw(){
         circles[i].show();
     }
     
-
+   textSize(32);
+   text('Drag Mouse', 500, 100);
    floor.show();
    ceiling.show();
    leftWall.show();
